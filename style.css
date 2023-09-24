@@ -1,0 +1,160 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+    color: #EBE9DD;
+    background-image: url(pics/y.jpg);
+    text-align: left;
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 40px;
+    text-shadow: 0px 6px 2px #000;
+}
+
+div{
+    display: block;
+}
+
+.workshops{
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 20px
+}
+
+p{
+    font-size: 25px;
+}
+
+#p2{
+    justify-content: left;
+    text-align: left;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+li {
+    font-size: 15px;
+    text-align: left;
+    list-style-image: url("icon-plus.png");
+    line-height: 1.6em;
+     
+}
+
+table {
+    border-radius: 10px;
+    height: 400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+        
+th, td {
+    text-align: center;
+    background-color: #A28259;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+tr.head th {
+    color: #fff;
+    background-color: #602D0E;
+    border-bottom: 2px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    text-align: center;
+    
+    letter-spacing: 0.15em;
+}
+
+
+
+tr.even td, tr.even th {
+    background-color: #7E502F;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+form{
+    display: block;
+    text-align: center;
+}
+
+fieldset {
+    width: 400px;
+    margin: 25px auto;
+    margin-top: 50px;
+    border: 1px solid #000;
+    background-color: #7E502F;
+    line-height: 1.6em;
+}
+
+legend {
+    font-size: 15px;
+    font-style: italic;
+    color: #000;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px auto;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+    font-size: 18px;
+}
+.submit {
+    width: 310px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
